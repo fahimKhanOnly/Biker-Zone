@@ -26,6 +26,7 @@
               colors: {
                 clifford: '#da373d',
                 'primary-btn': '#E76F51',
+                'primary-description': '#6C6C6C',
               }
             }
           }
@@ -143,6 +144,8 @@
         </div>
     </header>
     <main class="lg:container mx-auto mt-16 mb-10 md:mt-10">
+
+      <!-- Featured section -->
       <section class="flex flex-col items-center gap-16">
         <div class="mx-3 space-y-2 col-span-3">
           <h1 class="font-bold text-xl text-center sm:text-4xl">Featured Bikes In This Year</h1>
@@ -154,6 +157,62 @@
           <img class="md:size-1/4" src="./assets/others/feature-bike.png">
           <img class="md:size-1/4" src="./assets/others/feature-bike.png">
         </div>
+      </section>
+
+
+      <!-- Latest News Section -->
+      <section class="mx-auto my-24">
+        <div class="max-w-96 mx-auto px-3 mb-10">
+          <h1 class="font-bold text-3xl text-left sm:text-4xl sm:text-center">Latest News</h1>
+        </div>
+
+        <div class="mx-3 flex flex-col justify-center gap-6 md:flex-row">
+          <div class="card rounded-lg card-compact mx-auto bg-base-100 max-w-96 shadow-xl">
+            <figure>
+              <img class="p-2"
+                src="./assets/others/latest1.png"
+                alt="Bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold">Ducati XDIAVEL S-73</h2>
+              <p class="text-primary-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary bg-transparent border-primary-btn text-primary-btn hover:text-white hover:bg-primary-btn font-semibold">Read More</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card rounded-lg card-compact mx-auto bg-base-100 max-w-96 shadow-xl">
+            <figure>
+              <img class="p-2"
+                src="./assets/others/latest2.png"
+                alt="Bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold">Motorcycles & Scooters</h2>
+              <p class="text-primary-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary bg-transparent border-primary-btn text-primary-btn hover:text-white hover:bg-primary-btn font-semibold">Read More</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card rounded-lg card-compact mx-auto bg-base-100 max-w-96 shadow-xl">
+            <figure>
+              <img class="p-2"
+                src="./assets/others/latest3.png"
+                alt="Bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold">2021 Honda CBR500R</h2>
+              <p class="text-primary-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary bg-transparent border-primary-btn text-primary-btn hover:text-white hover:bg-primary-btn font-semibold">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
     </main>
     <footer>
